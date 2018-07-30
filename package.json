@@ -1,15 +1,23 @@
-{
-  "name": "tacobot",
-  "version": "1.0.0",
-  "description": "Taco Bot",
-  "main": "index.js",
+"name": "Tacobot",
+
+  "description": "Tacobot Discord",
+
+  "version": "0.0.0",
+
+  "main": "bot.js",
+
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+
+    "start": "node bot.js"
+
   },
-  "author": "Best",
-  "license": "ISC",
+
   "dependencies": {
-    "discord.js": "^11.3.2",
-    "nodemon": "^1.18.3"
+
+    "discord.js": "11.1.0",
+
+    "request": "2.81.0"
+
   }
+
 }
